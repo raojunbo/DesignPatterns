@@ -1,15 +1,13 @@
 //
 //  RootViewController.m
-//  装饰的设计模式
+//  享元的设计模式
 //
 //  Created by rjb on 2018/8/29.
 //  Copyright © 2018年 rjb. All rights reserved.
 //
 
 #import "RootViewController.h"
-#import "Beverage.h"
-#import "Mocha.h"
-#import "Whip.h"
+
 @interface RootViewController ()
 
 @end
@@ -18,17 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    Beverage *beverage = [[Beverage alloc]init];
-   
-    Beverage *beverage1 = [[Mocha alloc]init];
-    beverage1 = [[Mocha alloc]initWith:beverage1];//用mocha装饰
+    // Do any additional setup after loading the view.
     
-    beverage1 = [[Mocha alloc]initWith:beverage1];//在用mocha装饰
-    beverage1 = [[Whip alloc]initWith:beverage1];//用奶泡装饰
-    NSLog(@"这是饮料的信息%@",beverage1.cost);
+    //享元，就是对象的“内存缓存”或者“复用”
     
-    //通过装饰，其实装饰的类型还是主类的类型。
-    //装饰类的设计，装饰类既有主类的属性，本类也是主类类型。这样可以递归的方式来获得最总被装饰了的对象。
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  外观模式
+//  享元的设计模式
 //
 //  Created by rjb on 2018/8/29.
 //  Copyright © 2018年 rjb. All rights reserved.
@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "RootViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,12 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch. RootVieController *rootVC = [[RootVieController alloc]init];
+    // Override point for customization after application launch.
+    RootVieController *rootVC = [[RootVieController alloc]init];
     self.window.rootViewController = rootVC;
     [self.window makeKeyAndVisible];
     return YES;
 }
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

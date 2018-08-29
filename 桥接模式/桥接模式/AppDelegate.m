@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "RootViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    RootVieController *rootVC = [[RootVieController alloc]init];
+    self.window.rootViewController = rootVC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
