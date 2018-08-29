@@ -8,27 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		3468C44D213500B300933F9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468C44C213500B300933F9B /* AppDelegate.m */; };
-		3468C450213500B300933F9B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468C44F213500B300933F9B /* MasterViewController.m */; };
-		3468C453213500B300933F9B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468C452213500B300933F9B /* DetailViewController.m */; };
-		3468C456213500B300933F9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3468C454213500B300933F9B /* Main.storyboard */; };
 		3468C458213500B400933F9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3468C457213500B400933F9B /* Assets.xcassets */; };
 		3468C45B213500B400933F9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3468C459213500B400933F9B /* LaunchScreen.storyboard */; };
 		3468C45E213500B400933F9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468C45D213500B400933F9B /* main.m */; };
+		3468C4CB213543F000933F9B /* RootVieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468C4CA213543F000933F9B /* RootVieController.m */; };
+		3468C4D321364FA400933F9B /* LenovoComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468C4D221364FA400933F9B /* LenovoComputer.m */; };
+		3468C4D62136500400933F9B /* LenovoComputerBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468C4D52136500400933F9B /* LenovoComputerBuilder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3468C448213500B300933F9B /* 构建者模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "构建者模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3468C44B213500B300933F9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3468C44C213500B300933F9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3468C44E213500B300933F9B /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		3468C44F213500B300933F9B /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		3468C451213500B300933F9B /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		3468C452213500B300933F9B /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		3468C455213500B300933F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3468C457213500B400933F9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3468C45A213500B400933F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3468C45C213500B400933F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3468C45D213500B400933F9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3468C4C9213543F000933F9B /* RootVieController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootVieController.h; sourceTree = "<group>"; };
+		3468C4CA213543F000933F9B /* RootVieController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootVieController.m; sourceTree = "<group>"; };
+		3468C4CF21364B2E00933F9B /* IComputer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IComputer.h; sourceTree = "<group>"; };
+		3468C4D021364C7800933F9B /* IComputerBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IComputerBuilder.h; sourceTree = "<group>"; };
+		3468C4D121364FA400933F9B /* LenovoComputer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LenovoComputer.h; sourceTree = "<group>"; };
+		3468C4D221364FA400933F9B /* LenovoComputer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LenovoComputer.m; sourceTree = "<group>"; };
+		3468C4D42136500400933F9B /* LenovoComputerBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LenovoComputerBuilder.h; sourceTree = "<group>"; };
+		3468C4D52136500400933F9B /* LenovoComputerBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LenovoComputerBuilder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +66,14 @@
 			children = (
 				3468C44B213500B300933F9B /* AppDelegate.h */,
 				3468C44C213500B300933F9B /* AppDelegate.m */,
-				3468C44E213500B300933F9B /* MasterViewController.h */,
-				3468C44F213500B300933F9B /* MasterViewController.m */,
-				3468C451213500B300933F9B /* DetailViewController.h */,
-				3468C452213500B300933F9B /* DetailViewController.m */,
-				3468C454213500B300933F9B /* Main.storyboard */,
+				3468C4C9213543F000933F9B /* RootVieController.h */,
+				3468C4CF21364B2E00933F9B /* IComputer.h */,
+				3468C4D121364FA400933F9B /* LenovoComputer.h */,
+				3468C4D221364FA400933F9B /* LenovoComputer.m */,
+				3468C4D021364C7800933F9B /* IComputerBuilder.h */,
+				3468C4D42136500400933F9B /* LenovoComputerBuilder.h */,
+				3468C4D52136500400933F9B /* LenovoComputerBuilder.m */,
+				3468C4CA213543F000933F9B /* RootVieController.m */,
 				3468C457213500B400933F9B /* Assets.xcassets */,
 				3468C459213500B400933F9B /* LaunchScreen.storyboard */,
 				3468C45C213500B400933F9B /* Info.plist */,
@@ -135,7 +141,6 @@
 			files = (
 				3468C45B213500B400933F9B /* LaunchScreen.storyboard in Resources */,
 				3468C458213500B400933F9B /* Assets.xcassets in Resources */,
-				3468C456213500B300933F9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,24 +151,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3468C450213500B300933F9B /* MasterViewController.m in Sources */,
+				3468C4CB213543F000933F9B /* RootVieController.m in Sources */,
+				3468C4D321364FA400933F9B /* LenovoComputer.m in Sources */,
 				3468C44D213500B300933F9B /* AppDelegate.m in Sources */,
+				3468C4D62136500400933F9B /* LenovoComputerBuilder.m in Sources */,
 				3468C45E213500B400933F9B /* main.m in Sources */,
-				3468C453213500B300933F9B /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3468C454213500B300933F9B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3468C455213500B300933F9B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3468C459213500B400933F9B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -8,27 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		3468C4282135007E00933F9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468C4272135007E00933F9B /* AppDelegate.m */; };
-		3468C42B2135007E00933F9B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468C42A2135007E00933F9B /* MasterViewController.m */; };
-		3468C42E2135007E00933F9B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468C42D2135007E00933F9B /* DetailViewController.m */; };
-		3468C4312135007E00933F9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3468C42F2135007E00933F9B /* Main.storyboard */; };
 		3468C4332135007F00933F9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3468C4322135007F00933F9B /* Assets.xcassets */; };
-		3468C4362135007F00933F9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3468C4342135007F00933F9B /* LaunchScreen.storyboard */; };
 		3468C4392135007F00933F9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468C4382135007F00933F9B /* main.m */; };
+		3468C4B3213537DA00933F9B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468C4B2213537DA00933F9B /* RootViewController.m */; };
+		3468C4B6213538FD00933F9B /* ColorViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468C4B5213538FD00933F9B /* ColorViewFactory.m */; };
+		3468C4B92135392200933F9B /* RedViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468C4B82135392200933F9B /* RedViewFactory.m */; };
+		3468C4BC2135393600933F9B /* BlueViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468C4BB2135393600933F9B /* BlueViewFactory.m */; };
+		3468C4BF213539CA00933F9B /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468C4BE213539CA00933F9B /* RedView.m */; };
+		3468C4C2213539D700933F9B /* BlueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468C4C1213539D700933F9B /* BlueView.m */; };
+		3468C4C5213539ED00933F9B /* RedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468C4C4213539ED00933F9B /* RedButton.m */; };
+		3468C4C8213539FC00933F9B /* BlueButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468C4C7213539FC00933F9B /* BlueButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3468C4232135007E00933F9B /* 抽象工厂.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "抽象工厂.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3468C4262135007E00933F9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3468C4272135007E00933F9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3468C4292135007E00933F9B /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		3468C42A2135007E00933F9B /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		3468C42C2135007E00933F9B /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		3468C42D2135007E00933F9B /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		3468C4302135007E00933F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3468C4322135007F00933F9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3468C4352135007F00933F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3468C4372135007F00933F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3468C4382135007F00933F9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3468C4B1213537DA00933F9B /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3468C4B2213537DA00933F9B /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3468C4B4213538FD00933F9B /* ColorViewFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorViewFactory.h; sourceTree = "<group>"; };
+		3468C4B5213538FD00933F9B /* ColorViewFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorViewFactory.m; sourceTree = "<group>"; };
+		3468C4B72135392200933F9B /* RedViewFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedViewFactory.h; sourceTree = "<group>"; };
+		3468C4B82135392200933F9B /* RedViewFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedViewFactory.m; sourceTree = "<group>"; };
+		3468C4BA2135393600933F9B /* BlueViewFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueViewFactory.h; sourceTree = "<group>"; };
+		3468C4BB2135393600933F9B /* BlueViewFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueViewFactory.m; sourceTree = "<group>"; };
+		3468C4BD213539CA00933F9B /* RedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		3468C4BE213539CA00933F9B /* RedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
+		3468C4C0213539D700933F9B /* BlueView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueView.h; sourceTree = "<group>"; };
+		3468C4C1213539D700933F9B /* BlueView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueView.m; sourceTree = "<group>"; };
+		3468C4C3213539ED00933F9B /* RedButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedButton.h; sourceTree = "<group>"; };
+		3468C4C4213539ED00933F9B /* RedButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedButton.m; sourceTree = "<group>"; };
+		3468C4C6213539FC00933F9B /* BlueButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueButton.h; sourceTree = "<group>"; };
+		3468C4C7213539FC00933F9B /* BlueButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,13 +77,23 @@
 			children = (
 				3468C4262135007E00933F9B /* AppDelegate.h */,
 				3468C4272135007E00933F9B /* AppDelegate.m */,
-				3468C4292135007E00933F9B /* MasterViewController.h */,
-				3468C42A2135007E00933F9B /* MasterViewController.m */,
-				3468C42C2135007E00933F9B /* DetailViewController.h */,
-				3468C42D2135007E00933F9B /* DetailViewController.m */,
-				3468C42F2135007E00933F9B /* Main.storyboard */,
+				3468C4B1213537DA00933F9B /* RootViewController.h */,
+				3468C4B2213537DA00933F9B /* RootViewController.m */,
+				3468C4BD213539CA00933F9B /* RedView.h */,
+				3468C4BE213539CA00933F9B /* RedView.m */,
+				3468C4C0213539D700933F9B /* BlueView.h */,
+				3468C4C1213539D700933F9B /* BlueView.m */,
+				3468C4C3213539ED00933F9B /* RedButton.h */,
+				3468C4C4213539ED00933F9B /* RedButton.m */,
+				3468C4C6213539FC00933F9B /* BlueButton.h */,
+				3468C4C7213539FC00933F9B /* BlueButton.m */,
+				3468C4B4213538FD00933F9B /* ColorViewFactory.h */,
+				3468C4B5213538FD00933F9B /* ColorViewFactory.m */,
+				3468C4B72135392200933F9B /* RedViewFactory.h */,
+				3468C4B82135392200933F9B /* RedViewFactory.m */,
+				3468C4BA2135393600933F9B /* BlueViewFactory.h */,
+				3468C4BB2135393600933F9B /* BlueViewFactory.m */,
 				3468C4322135007F00933F9B /* Assets.xcassets */,
-				3468C4342135007F00933F9B /* LaunchScreen.storyboard */,
 				3468C4372135007F00933F9B /* Info.plist */,
 				3468C4382135007F00933F9B /* main.m */,
 			);
@@ -133,9 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3468C4362135007F00933F9B /* LaunchScreen.storyboard in Resources */,
 				3468C4332135007F00933F9B /* Assets.xcassets in Resources */,
-				3468C4312135007E00933F9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,33 +168,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3468C42B2135007E00933F9B /* MasterViewController.m in Sources */,
+				3468C4C2213539D700933F9B /* BlueView.m in Sources */,
+				3468C4B92135392200933F9B /* RedViewFactory.m in Sources */,
+				3468C4C5213539ED00933F9B /* RedButton.m in Sources */,
+				3468C4C8213539FC00933F9B /* BlueButton.m in Sources */,
 				3468C4282135007E00933F9B /* AppDelegate.m in Sources */,
 				3468C4392135007F00933F9B /* main.m in Sources */,
-				3468C42E2135007E00933F9B /* DetailViewController.m in Sources */,
+				3468C4B3213537DA00933F9B /* RootViewController.m in Sources */,
+				3468C4B6213538FD00933F9B /* ColorViewFactory.m in Sources */,
+				3468C4BC2135393600933F9B /* BlueViewFactory.m in Sources */,
+				3468C4BF213539CA00933F9B /* RedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		3468C42F2135007E00933F9B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3468C4302135007E00933F9B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3468C4342135007F00933F9B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3468C4352135007F00933F9B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3468C43A2135007F00933F9B /* Debug */ = {
