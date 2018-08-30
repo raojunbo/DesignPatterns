@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CommandProtocol.h"
 
 @interface Invoker : NSObject
 
 + (instancetype)sharedInstance;
 
+- (void)goBack;
 
+- (void)addAndExcute:(id<CommandProtocol>)command;
 
 @end

@@ -7,10 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 //正真的执行者,也就是命令的真正执行者
 
+
+
 @interface Receiver : NSObject
+
+@property (nonatomic, strong)UIView *receiverView;
 
 - (void)makeDarker:(float)param;
 

@@ -8,6 +8,7 @@
 
 #import "LighterCommand.h"
 #import "Receiver.h"
+
 @interface LighterCommand()
 @property (nonatomic, strong)Receiver *receive;
 @property (nonatomic, assign)float paramter;

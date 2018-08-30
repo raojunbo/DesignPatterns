@@ -14,5 +14,4 @@
 
 - (instancetype)initWithReceiver:(Receiver *)receiver paramter:(float)paramter;
 
-
 @end

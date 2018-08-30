@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "CommandProtocol.h"
-@interface LighterCommand : NSObject<CommandProtocol>
+#import "Receiver.h"
 
+@interface LighterCommand : NSObject<CommandProtocol>
 
 - (instancetype)initWithReceiver:(Receiver *)receiver paramter:(float)paramter ;
 

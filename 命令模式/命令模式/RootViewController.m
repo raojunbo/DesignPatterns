@@ -7,16 +7,32 @@
 //
 
 #import "RootViewController.h"
+#import "Receiver.h"
+#import "DarkerCommand.h"
+#import "LighterCommand.h"
+#import "Invoker.h"
 
 @interface RootViewController ()
-
+@property (nonatomic, strong)Receiver *receiver;
 @end
 
 @implementation RootViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.receiver = [[Receiver alloc]init];
+}
+
+- (void)buttonClick:(UIButton *)btn{
+    if(btn.tag == 1){
+        DarkerCommand *darkerCommand = [[DarkerCommand alloc]initWithReceiver:self.receiver paramter:1];
+        [[Invoker sharedInstance] addAndExcute:darkerCommand];
+    }else if(btn.tag == 2){
+        LighterCommand *lighterCommand = [[LighterCommand alloc]initWithReceiver:self.receiver paramter:0];
+        [[Invoker sharedInstance] addAndExcute:lighterCommand];
+    }else {
+        [[Invoker sharedInstance] goBack];
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,14 +40,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
