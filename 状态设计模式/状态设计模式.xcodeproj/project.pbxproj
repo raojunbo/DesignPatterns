@@ -7,23 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34EDE1FA2138D4E900AFA5C3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EDE1F92138D4E900AFA5C3 /* RootViewController.m */; };
+		34EDE1FE2138D76D00AFA5C3 /* NormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EDE1FD2138D76D00AFA5C3 /* NormalViewController.m */; };
+		34EDE2032138DE7900AFA5C3 /* PowerOnState.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EDE2022138DE7900AFA5C3 /* PowerOnState.m */; };
+		34EDE2062138DE8800AFA5C3 /* PowerOffState.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EDE2052138DE8800AFA5C3 /* PowerOffState.m */; };
+		34EDE2092138DF7300AFA5C3 /* StateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EDE2082138DF7300AFA5C3 /* StateViewController.m */; };
 		C64DFF6021384F1400662D23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C64DFF5F21384F1400662D23 /* AppDelegate.m */; };
-		C64DFF6321384F1400662D23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C64DFF6221384F1400662D23 /* ViewController.m */; };
-		C64DFF6621384F1400662D23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64DFF6421384F1400662D23 /* Main.storyboard */; };
 		C64DFF6821384F1500662D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C64DFF6721384F1500662D23 /* Assets.xcassets */; };
-		C64DFF6B21384F1500662D23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64DFF6921384F1500662D23 /* LaunchScreen.storyboard */; };
 		C64DFF6E21384F1500662D23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C64DFF6D21384F1500662D23 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34EDE1F82138D4E900AFA5C3 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		34EDE1F92138D4E900AFA5C3 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		34EDE1FC2138D76D00AFA5C3 /* NormalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalViewController.h; sourceTree = "<group>"; };
+		34EDE1FD2138D76D00AFA5C3 /* NormalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalViewController.m; sourceTree = "<group>"; };
+		34EDE2002138DD5200AFA5C3 /* StateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateProtocol.h; sourceTree = "<group>"; };
+		34EDE2012138DE7900AFA5C3 /* PowerOnState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PowerOnState.h; sourceTree = "<group>"; };
+		34EDE2022138DE7900AFA5C3 /* PowerOnState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PowerOnState.m; sourceTree = "<group>"; };
+		34EDE2042138DE8800AFA5C3 /* PowerOffState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PowerOffState.h; sourceTree = "<group>"; };
+		34EDE2052138DE8800AFA5C3 /* PowerOffState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PowerOffState.m; sourceTree = "<group>"; };
+		34EDE2072138DF7300AFA5C3 /* StateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateViewController.h; sourceTree = "<group>"; };
+		34EDE2082138DF7300AFA5C3 /* StateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateViewController.m; sourceTree = "<group>"; };
 		C64DFF5B21384F1400662D23 /* 状态设计模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "状态设计模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64DFF5E21384F1400662D23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C64DFF5F21384F1400662D23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C64DFF6121384F1400662D23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C64DFF6221384F1400662D23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C64DFF6521384F1400662D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C64DFF6721384F1500662D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C64DFF6A21384F1500662D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C64DFF6C21384F1500662D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C64DFF6D21384F1500662D23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -39,6 +48,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34EDE1FB2138D73E00AFA5C3 /* 普通设计 */ = {
+			isa = PBXGroup;
+			children = (
+				34EDE1FC2138D76D00AFA5C3 /* NormalViewController.h */,
+				34EDE1FD2138D76D00AFA5C3 /* NormalViewController.m */,
+			);
+			path = "普通设计";
+			sourceTree = "<group>";
+		};
+		34EDE1FF2138DCF800AFA5C3 /* 状态模式设计 */ = {
+			isa = PBXGroup;
+			children = (
+				34EDE2002138DD5200AFA5C3 /* StateProtocol.h */,
+				34EDE2012138DE7900AFA5C3 /* PowerOnState.h */,
+				34EDE2022138DE7900AFA5C3 /* PowerOnState.m */,
+				34EDE2042138DE8800AFA5C3 /* PowerOffState.h */,
+				34EDE2052138DE8800AFA5C3 /* PowerOffState.m */,
+				34EDE2072138DF7300AFA5C3 /* StateViewController.h */,
+				34EDE2082138DF7300AFA5C3 /* StateViewController.m */,
+			);
+			path = "状态模式设计";
+			sourceTree = "<group>";
+		};
 		C64DFF5221384F1400662D23 = {
 			isa = PBXGroup;
 			children = (
@@ -60,11 +92,11 @@
 			children = (
 				C64DFF5E21384F1400662D23 /* AppDelegate.h */,
 				C64DFF5F21384F1400662D23 /* AppDelegate.m */,
-				C64DFF6121384F1400662D23 /* ViewController.h */,
-				C64DFF6221384F1400662D23 /* ViewController.m */,
-				C64DFF6421384F1400662D23 /* Main.storyboard */,
+				34EDE1FF2138DCF800AFA5C3 /* 状态模式设计 */,
+				34EDE1FB2138D73E00AFA5C3 /* 普通设计 */,
+				34EDE1F82138D4E900AFA5C3 /* RootViewController.h */,
+				34EDE1F92138D4E900AFA5C3 /* RootViewController.m */,
 				C64DFF6721384F1500662D23 /* Assets.xcassets */,
-				C64DFF6921384F1500662D23 /* LaunchScreen.storyboard */,
 				C64DFF6C21384F1500662D23 /* Info.plist */,
 				C64DFF6D21384F1500662D23 /* main.m */,
 			);
@@ -128,9 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C64DFF6B21384F1500662D23 /* LaunchScreen.storyboard in Resources */,
 				C64DFF6821384F1500662D23 /* Assets.xcassets in Resources */,
-				C64DFF6621384F1400662D23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,32 +171,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C64DFF6321384F1400662D23 /* ViewController.m in Sources */,
 				C64DFF6E21384F1500662D23 /* main.m in Sources */,
+				34EDE2032138DE7900AFA5C3 /* PowerOnState.m in Sources */,
+				34EDE1FE2138D76D00AFA5C3 /* NormalViewController.m in Sources */,
+				34EDE2062138DE8800AFA5C3 /* PowerOffState.m in Sources */,
 				C64DFF6021384F1400662D23 /* AppDelegate.m in Sources */,
+				34EDE1FA2138D4E900AFA5C3 /* RootViewController.m in Sources */,
+				34EDE2092138DF7300AFA5C3 /* StateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C64DFF6421384F1400662D23 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C64DFF6521384F1400662D23 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C64DFF6921384F1500662D23 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C64DFF6A21384F1500662D23 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C64DFF6F21384F1500662D23 /* Debug */ = {

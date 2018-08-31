@@ -1,13 +1,13 @@
 //
 //  AppDelegate.m
-//  状态设计模式
+//  策略模式
 //
-//  Created by 饶君波 on 2018/8/31.
-//  Copyright © 2018年 饶君波. All rights reserved.
+//  Created by rjb on 2018/8/31.
+//  Copyright © 2018年 rjb. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import ""
+
 @interface AppDelegate ()
 
 @end
@@ -17,10 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    RootViewController *rootVC = [[RootViewController alloc]init];
-    self.window.rootViewController = rootVC;
-    [self.window makeKeyAndVisible];
     return YES;
 }
 

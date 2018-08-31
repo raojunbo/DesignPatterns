@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34EDE2182138E42A00AFA5C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EDE2172138E42A00AFA5C3 /* AppDelegate.m */; };
+		34EDE2202138E42C00AFA5C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34EDE21F2138E42C00AFA5C3 /* Assets.xcassets */; };
+		34EDE2262138E42C00AFA5C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EDE2252138E42C00AFA5C3 /* main.m */; };
+		34EDE22E2138E4AC00AFA5C3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EDE22D2138E4AC00AFA5C3 /* RootViewController.m */; };
+		34EDE2322138E51F00AFA5C3 /* NormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EDE2312138E51F00AFA5C3 /* NormalViewController.m */; };
+		34EDE2352138E5F600AFA5C3 /* FinancyStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EDE2342138E5F600AFA5C3 /* FinancyStrategy.m */; };
+		34EDE23A2138EA0200AFA5C3 /* AlipayFinancyStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EDE2392138EA0200AFA5C3 /* AlipayFinancyStrategy.m */; };
+		34EDE23D2138EA2D00AFA5C3 /* YouliFinancyStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EDE23C2138EA2D00AFA5C3 /* YouliFinancyStrategy.m */; };
+		34EDE2402138EC3200AFA5C3 /* StrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EDE23F2138EC3200AFA5C3 /* StrategyViewController.m */; };
+		34EDE2432138ECDD00AFA5C3 /* FinancyContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EDE2422138ECDD00AFA5C3 /* FinancyContext.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34EDE2132138E42A00AFA5C3 /* 策略模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "策略模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34EDE2162138E42A00AFA5C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34EDE2172138E42A00AFA5C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34EDE21F2138E42C00AFA5C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34EDE2242138E42C00AFA5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34EDE2252138E42C00AFA5C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34EDE22C2138E4AC00AFA5C3 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		34EDE22D2138E4AC00AFA5C3 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		34EDE2302138E51F00AFA5C3 /* NormalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalViewController.h; sourceTree = "<group>"; };
+		34EDE2312138E51F00AFA5C3 /* NormalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalViewController.m; sourceTree = "<group>"; };
+		34EDE2332138E5F600AFA5C3 /* FinancyStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinancyStrategy.h; sourceTree = "<group>"; };
+		34EDE2342138E5F600AFA5C3 /* FinancyStrategy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinancyStrategy.m; sourceTree = "<group>"; };
+		34EDE2372138E94700AFA5C3 /* FinancyStratery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinancyStratery.h; sourceTree = "<group>"; };
+		34EDE2382138EA0200AFA5C3 /* AlipayFinancyStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AlipayFinancyStrategy.h; path = "策略模式/策略优化/AlipayFinancyStrategy.h"; sourceTree = SOURCE_ROOT; };
+		34EDE2392138EA0200AFA5C3 /* AlipayFinancyStrategy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AlipayFinancyStrategy.m; path = "策略模式/策略优化/AlipayFinancyStrategy.m"; sourceTree = SOURCE_ROOT; };
+		34EDE23B2138EA2D00AFA5C3 /* YouliFinancyStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YouliFinancyStrategy.h; sourceTree = "<group>"; };
+		34EDE23C2138EA2D00AFA5C3 /* YouliFinancyStrategy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YouliFinancyStrategy.m; sourceTree = "<group>"; };
+		34EDE23E2138EC3200AFA5C3 /* StrategyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrategyViewController.h; sourceTree = "<group>"; };
+		34EDE23F2138EC3200AFA5C3 /* StrategyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyViewController.m; sourceTree = "<group>"; };
+		34EDE2412138ECDD00AFA5C3 /* FinancyContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinancyContext.h; sourceTree = "<group>"; };
+		34EDE2422138ECDD00AFA5C3 /* FinancyContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinancyContext.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34EDE2102138E42A00AFA5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34EDE20A2138E42A00AFA5C3 = {
+			isa = PBXGroup;
+			children = (
+				34EDE2152138E42A00AFA5C3 /* 策略模式 */,
+				34EDE2142138E42A00AFA5C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34EDE2142138E42A00AFA5C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34EDE2132138E42A00AFA5C3 /* 策略模式.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34EDE2152138E42A00AFA5C3 /* 策略模式 */ = {
+			isa = PBXGroup;
+			children = (
+				34EDE2362138E92700AFA5C3 /* 策略优化 */,
+				34EDE22F2138E50F00AFA5C3 /* 普通实现 */,
+				34EDE22C2138E4AC00AFA5C3 /* RootViewController.h */,
+				34EDE22D2138E4AC00AFA5C3 /* RootViewController.m */,
+				34EDE2162138E42A00AFA5C3 /* AppDelegate.h */,
+				34EDE2172138E42A00AFA5C3 /* AppDelegate.m */,
+				34EDE21F2138E42C00AFA5C3 /* Assets.xcassets */,
+				34EDE2242138E42C00AFA5C3 /* Info.plist */,
+				34EDE2252138E42C00AFA5C3 /* main.m */,
+			);
+			path = "策略模式";
+			sourceTree = "<group>";
+		};
+		34EDE22F2138E50F00AFA5C3 /* 普通实现 */ = {
+			isa = PBXGroup;
+			children = (
+				34EDE2302138E51F00AFA5C3 /* NormalViewController.h */,
+				34EDE2312138E51F00AFA5C3 /* NormalViewController.m */,
+				34EDE2332138E5F600AFA5C3 /* FinancyStrategy.h */,
+				34EDE2342138E5F600AFA5C3 /* FinancyStrategy.m */,
+			);
+			path = "普通实现";
+			sourceTree = "<group>";
+		};
+		34EDE2362138E92700AFA5C3 /* 策略优化 */ = {
+			isa = PBXGroup;
+			children = (
+				34EDE2372138E94700AFA5C3 /* FinancyStratery.h */,
+				34EDE2382138EA0200AFA5C3 /* AlipayFinancyStrategy.h */,
+				34EDE2392138EA0200AFA5C3 /* AlipayFinancyStrategy.m */,
+				34EDE23B2138EA2D00AFA5C3 /* YouliFinancyStrategy.h */,
+				34EDE23C2138EA2D00AFA5C3 /* YouliFinancyStrategy.m */,
+				34EDE23E2138EC3200AFA5C3 /* StrategyViewController.h */,
+				34EDE23F2138EC3200AFA5C3 /* StrategyViewController.m */,
+				34EDE2412138ECDD00AFA5C3 /* FinancyContext.h */,
+				34EDE2422138ECDD00AFA5C3 /* FinancyContext.m */,
+			);
+			path = "策略优化";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34EDE2122138E42A00AFA5C3 /* 策略模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34EDE2292138E42C00AFA5C3 /* Build configuration list for PBXNativeTarget "策略模式" */;
+			buildPhases = (
+				34EDE20F2138E42A00AFA5C3 /* Sources */,
+				34EDE2102138E42A00AFA5C3 /* Frameworks */,
+				34EDE2112138E42A00AFA5C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "策略模式";
+			productName = "策略模式";
+			productReference = 34EDE2132138E42A00AFA5C3 /* 策略模式.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34EDE20B2138E42A00AFA5C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = rjb;
+				TargetAttributes = {
+					34EDE2122138E42A00AFA5C3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 34EDE20E2138E42A00AFA5C3 /* Build configuration list for PBXProject "策略模式" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34EDE20A2138E42A00AFA5C3;
+			productRefGroup = 34EDE2142138E42A00AFA5C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34EDE2122138E42A00AFA5C3 /* 策略模式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34EDE2112138E42A00AFA5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EDE2202138E42C00AFA5C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34EDE20F2138E42A00AFA5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EDE2262138E42C00AFA5C3 /* main.m in Sources */,
+				34EDE2432138ECDD00AFA5C3 /* FinancyContext.m in Sources */,
+				34EDE2322138E51F00AFA5C3 /* NormalViewController.m in Sources */,
+				34EDE2182138E42A00AFA5C3 /* AppDelegate.m in Sources */,
+				34EDE23D2138EA2D00AFA5C3 /* YouliFinancyStrategy.m in Sources */,
+				34EDE22E2138E4AC00AFA5C3 /* RootViewController.m in Sources */,
+				34EDE2402138EC3200AFA5C3 /* StrategyViewController.m in Sources */,
+				34EDE2352138E5F600AFA5C3 /* FinancyStrategy.m in Sources */,
+				34EDE23A2138EA0200AFA5C3 /* AlipayFinancyStrategy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		34EDE2272138E42C00AFA5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34EDE2282138E42C00AFA5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34EDE22A2138E42C00AFA5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H943X5Q87C;
+				INFOPLIST_FILE = "策略模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.knowbox2.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34EDE22B2138E42C00AFA5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H943X5Q87C;
+				INFOPLIST_FILE = "策略模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.knowbox2.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34EDE20E2138E42A00AFA5C3 /* Build configuration list for PBXProject "策略模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EDE2272138E42C00AFA5C3 /* Debug */,
+				34EDE2282138E42C00AFA5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34EDE2292138E42C00AFA5C3 /* Build configuration list for PBXNativeTarget "策略模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EDE22A2138E42C00AFA5C3 /* Debug */,
+				34EDE22B2138E42C00AFA5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34EDE20B2138E42A00AFA5C3 /* Project object */;
+}
